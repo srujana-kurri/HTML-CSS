@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4-css</title>
+    <style>
+    .container{
+            display: flex;
+        }
+        .nav{
+            display: flex;
+            flex-direction: column;
+            padding-top: 10px;
+            padding-bottom: 180px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            border-radius: 0px 7px 7px 0px;
+            font-size: 15px;
+            width:60px;
+            height:55px;
+            left: -2px; 
+            display: flex; 
+            align-items: center;
+        }
+         #c1{
+            margin-top: 20px;
+            background-color: rgb(14, 168, 94);
+            position:relative ;
+            align-content: center;           
+        }
+        #c2{
+            background-color: rgb(1, 181, 252);
+            position:relative ;
+            top:7px;
+            align-content: center;                       
+        }
+        #c3{
+            background-color: rgba(251, 22, 22, 0.9);
+            position:relative ;
+            top:15px;
+            align-content: center;           
+        }
+        #c4{
+            background-color: rgb(98, 96, 96);
+            position:relative ;
+            top:22px;
+            align-content: center;           
+            }
+        a:hover{
+            left: 3px;
+            width: 70px ;
+            transition: 0.2s;
+            border-radius: 7px 7px 7px 7px;            
+        }
+        tr{
+            border: 2px solid black;
+        }
+        table{
+            border-top-width: 2px;
+            border-top-style: solid groove; 
+        }
+        #t{
+            padding-top: 10px;
+            padding-bottom: 300px;
+             padding-left: 20px;
+              padding-right: 4px;
+                }
+                </style>
+                </head>
+                <body>
+    <h2>CSS Task-4</h2>
+    <table borde="1"  style="border-collapse: collapse; width: 40%; border-color: black " align="center" >
+        <tr style="height:350px"> 
+            <div class="container">
+            <td style="width: 15%;" >
+                <div class="nav ">
+                <a href="#" id="c1">Home</a>
+                <a href="#" id="c2">Profile</a>
+                <a href="#" id="c3">Research</a>
+                <a href="#" id="c4">Payment</a>
+            </div>
+        </td>
+            <td id="t"> 
+                <h2>Hoverable Sidenav Buttons</h2>
+                <p>Hover over the buttons in the left side navigation to open them.</p>
+            </td>
+            </div>
+        </tr>
+    </table>
+</body>
+</html>
